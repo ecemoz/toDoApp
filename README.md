@@ -8,6 +8,10 @@ This first release prioritizes:
 - reusable widget composition
 - mobile-native interaction patterns (including swipe actions)
 
+<img width="402" height="874" alt="image" src="https://github.com/user-attachments/assets/3d2c30ca-f207-404c-9861-aeb423371a4c" />
+
+
+
 ## Interesting Techniques Used
 
 - Stateful list mutation with explicit UI invalidation in [lib/home_page.dart](lib/home_page.dart) using `setState`, plus closure-based callbacks passed into child widgets for controlled updates.
